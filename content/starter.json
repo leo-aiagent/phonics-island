@@ -1,0 +1,5023 @@
+{
+  "id": "starter",
+  "name": "声音起航 · 基础与 sh/ch 学习包",
+  "version": "1.1.0",
+  "accent": "General American (word recordings); IPA reference samples labelled separately",
+  "review": "source-and-decode-checked; pedagogical-review-pending",
+  "rules": [
+    {
+      "id": "consonants",
+      "name": "基础辅音",
+      "sound": "/b k d f ɡ h dʒ k l m n p ɹ s t v w/",
+      "description": "辅音常见音；本包 c、g 只使用硬音。",
+      "prerequisites": [],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "short-a",
+      "name": "短元音 a",
+      "sound": "/æ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked",
+      "audioId": "phoneme-a"
+    },
+    {
+      "id": "short-e",
+      "name": "短元音 e",
+      "sound": "/ɛ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "short-i",
+      "name": "短元音 i",
+      "sound": "/ɪ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked",
+      "audioId": "phoneme-i"
+    },
+    {
+      "id": "short-o",
+      "name": "短元音 o · 美音",
+      "sound": "/ɑ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "short-u",
+      "name": "短元音 u",
+      "sound": "/ʌ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "sh",
+      "name": "组合 sh",
+      "sound": "/ʃ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "ch",
+      "name": "组合 ch",
+      "sound": "/tʃ/",
+      "description": "家庭复习示例，需按已学教材选择。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": true,
+      "review": "source-checked"
+    },
+    {
+      "id": "igh",
+      "name": "组合 igh",
+      "sound": "/aɪ/",
+      "description": "结构预留，首版无启用词条。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": false,
+      "review": "draft",
+      "segmentExample": {
+        "grapheme": "igh",
+        "positions": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "a_e",
+      "name": "分离组合 a_e",
+      "sound": "/eɪ/",
+      "description": "结构预留，首版无启用词条。",
+      "prerequisites": [
+        "consonants"
+      ],
+      "enabled": false,
+      "review": "draft",
+      "segmentExample": {
+        "grapheme": "a_e",
+        "positions": [
+          1,
+          3
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "w-cat",
+      "name": "cat",
+      "text": "cat",
+      "meaning": "猫",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "c",
+          "phonemes": [
+            "k"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "cat"
+      ],
+      "audioId": "word-cat",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-mat",
+      "name": "mat",
+      "text": "mat",
+      "meaning": "垫子",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "mat"
+      ],
+      "audioId": "word-mat",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-sat",
+      "name": "sat",
+      "text": "sat",
+      "meaning": "坐下（过去式）",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "s",
+          "phonemes": [
+            "s"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "sat"
+      ],
+      "audioId": "word-sat",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-map",
+      "name": "map",
+      "text": "map",
+      "meaning": "地图",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "map"
+      ],
+      "audioId": "word-map",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-cap",
+      "name": "cap",
+      "text": "cap",
+      "meaning": "帽子",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "c",
+          "phonemes": [
+            "k"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "cap"
+      ],
+      "audioId": "word-cap",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-tap",
+      "name": "tap",
+      "text": "tap",
+      "meaning": "轻拍",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "tap"
+      ],
+      "audioId": "word-tap",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-bag",
+      "name": "bag",
+      "text": "bag",
+      "meaning": "包",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "bag"
+      ],
+      "audioId": "word-bag",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-fan",
+      "name": "fan",
+      "text": "fan",
+      "meaning": "风扇",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "f",
+          "phonemes": [
+            "f"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "fan"
+      ],
+      "audioId": "word-fan",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pan",
+      "name": "pan",
+      "text": "pan",
+      "meaning": "平底锅",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pan"
+      ],
+      "audioId": "word-pan",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-jam",
+      "name": "jam",
+      "text": "jam",
+      "meaning": "果酱",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "j",
+          "phonemes": [
+            "dʒ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "jam"
+      ],
+      "audioId": "word-jam",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-bed",
+      "name": "bed",
+      "text": "bed",
+      "meaning": "床",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "bed"
+      ],
+      "audioId": "word-bed",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-red",
+      "name": "red",
+      "text": "red",
+      "meaning": "红色",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "r",
+          "phonemes": [
+            "ɹ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "red"
+      ],
+      "audioId": "word-red",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-hen",
+      "name": "hen",
+      "text": "hen",
+      "meaning": "母鸡",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "h",
+          "phonemes": [
+            "h"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "hen"
+      ],
+      "audioId": "word-hen",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pen",
+      "name": "pen",
+      "text": "pen",
+      "meaning": "钢笔",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pen"
+      ],
+      "audioId": "word-pen",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-ten",
+      "name": "ten",
+      "text": "ten",
+      "meaning": "十",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "ten"
+      ],
+      "audioId": "word-ten",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-net",
+      "name": "net",
+      "text": "net",
+      "meaning": "网",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "net"
+      ],
+      "audioId": "word-net",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pet",
+      "name": "pet",
+      "text": "pet",
+      "meaning": "宠物",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pet"
+      ],
+      "audioId": "word-pet",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-leg",
+      "name": "leg",
+      "text": "leg",
+      "meaning": "腿",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "l",
+          "phonemes": [
+            "l"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "leg"
+      ],
+      "audioId": "word-leg",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-sit",
+      "name": "sit",
+      "text": "sit",
+      "meaning": "坐",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "s",
+          "phonemes": [
+            "s"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "sit"
+      ],
+      "audioId": "word-sit",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pin",
+      "name": "pin",
+      "text": "pin",
+      "meaning": "大头针",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pin"
+      ],
+      "audioId": "word-pin",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-fin",
+      "name": "fin",
+      "text": "fin",
+      "meaning": "鱼鳍",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "f",
+          "phonemes": [
+            "f"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "fin"
+      ],
+      "audioId": "word-fin",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-lip",
+      "name": "lip",
+      "text": "lip",
+      "meaning": "嘴唇",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "l",
+          "phonemes": [
+            "l"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "lip"
+      ],
+      "audioId": "word-lip",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pig",
+      "name": "pig",
+      "text": "pig",
+      "meaning": "猪",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pig"
+      ],
+      "audioId": "word-pig",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-big",
+      "name": "big",
+      "text": "big",
+      "meaning": "大的",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "big"
+      ],
+      "audioId": "word-big",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-kid",
+      "name": "kid",
+      "text": "kid",
+      "meaning": "孩子",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "k",
+          "phonemes": [
+            "k"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "kid"
+      ],
+      "audioId": "word-kid",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-hot",
+      "name": "hot",
+      "text": "hot",
+      "meaning": "热的",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "h",
+          "phonemes": [
+            "h"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "hot"
+      ],
+      "audioId": "word-hot",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-pot",
+      "name": "pot",
+      "text": "pot",
+      "meaning": "锅",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "pot"
+      ],
+      "audioId": "word-pot",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-top",
+      "name": "top",
+      "text": "top",
+      "meaning": "顶部",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "top"
+      ],
+      "audioId": "word-top",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-mop",
+      "name": "mop",
+      "text": "mop",
+      "meaning": "拖把",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "mop"
+      ],
+      "audioId": "word-mop",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-log",
+      "name": "log",
+      "text": "log",
+      "meaning": "原木",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "l",
+          "phonemes": [
+            "l"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "log"
+      ],
+      "audioId": "word-log",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-dog",
+      "name": "dog",
+      "text": "dog",
+      "meaning": "狗",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "dog"
+      ],
+      "audioId": "word-dog",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-sun",
+      "name": "sun",
+      "text": "sun",
+      "meaning": "太阳",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "s",
+          "phonemes": [
+            "s"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "sun"
+      ],
+      "audioId": "word-sun",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-cup",
+      "name": "cup",
+      "text": "cup",
+      "meaning": "杯子",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "c",
+          "phonemes": [
+            "k"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "cup"
+      ],
+      "audioId": "word-cup",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-bug",
+      "name": "bug",
+      "text": "bug",
+      "meaning": "小虫",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "bug"
+      ],
+      "audioId": "word-bug",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-bus",
+      "name": "bus",
+      "text": "bus",
+      "meaning": "公交车",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "s",
+          "phonemes": [
+            "s"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "bus"
+      ],
+      "audioId": "word-bus",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-run",
+      "name": "run",
+      "text": "run",
+      "meaning": "跑",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "r",
+          "phonemes": [
+            "ɹ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "run"
+      ],
+      "audioId": "word-run",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-fun",
+      "name": "fun",
+      "text": "fun",
+      "meaning": "有趣",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "f",
+          "phonemes": [
+            "f"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "fun"
+      ],
+      "audioId": "word-fun",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-mud",
+      "name": "mud",
+      "text": "mud",
+      "meaning": "泥",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "mud"
+      ],
+      "audioId": "word-mud",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-ship",
+      "name": "ship",
+      "text": "ship",
+      "meaning": "船",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "ship"
+      ],
+      "audioId": "word-ship",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-shop",
+      "name": "shop",
+      "text": "shop",
+      "meaning": "商店",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "shop"
+      ],
+      "audioId": "word-shop",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-fish",
+      "name": "fish",
+      "text": "fish",
+      "meaning": "鱼",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "f",
+          "phonemes": [
+            "f"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "fish"
+      ],
+      "audioId": "word-fish",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-shut",
+      "name": "shut",
+      "text": "shut",
+      "meaning": "关上",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "shut"
+      ],
+      "audioId": "word-shut",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-dish",
+      "name": "dish",
+      "text": "dish",
+      "meaning": "盘子",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "d",
+          "phonemes": [
+            "d"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "dish"
+      ],
+      "audioId": "word-dish",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-chip",
+      "name": "chip",
+      "text": "chip",
+      "meaning": "薯片",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "chip"
+      ],
+      "audioId": "word-chip",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-chin",
+      "name": "chin",
+      "text": "chin",
+      "meaning": "下巴",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "n",
+          "phonemes": [
+            "n"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "chin"
+      ],
+      "audioId": "word-chin",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-chop",
+      "name": "chop",
+      "text": "chop",
+      "meaning": "砍",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "p",
+          "phonemes": [
+            "p"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "chop"
+      ],
+      "audioId": "word-chop",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-chat",
+      "name": "chat",
+      "text": "chat",
+      "meaning": "聊天",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            0,
+            1
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            2
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "chat"
+      ],
+      "audioId": "word-chat",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-rich",
+      "name": "rich",
+      "text": "rich",
+      "meaning": "富有的",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "r",
+          "phonemes": [
+            "ɹ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "rich"
+      ],
+      "audioId": "word-rich",
+      "role": "training",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-bat",
+      "name": "bat",
+      "text": "bat",
+      "meaning": "蝙蝠",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "b",
+          "phonemes": [
+            "b"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "bat"
+      ],
+      "audioId": "word-bat",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-ham",
+      "name": "ham",
+      "text": "ham",
+      "meaning": "火腿",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "h",
+          "phonemes": [
+            "h"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "ham"
+      ],
+      "audioId": "word-ham",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-vet",
+      "name": "vet",
+      "text": "vet",
+      "meaning": "兽医",
+      "targetRule": "short-e",
+      "ruleIds": [
+        "consonants",
+        "short-e"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-e"
+      ],
+      "segments": [
+        {
+          "grapheme": "v",
+          "phonemes": [
+            "v"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "e",
+          "phonemes": [
+            "ɛ"
+          ],
+          "ruleIds": [
+            "short-e"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "vet"
+      ],
+      "audioId": "word-vet",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-hit",
+      "name": "hit",
+      "text": "hit",
+      "meaning": "击打",
+      "targetRule": "short-i",
+      "ruleIds": [
+        "consonants",
+        "short-i"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i"
+      ],
+      "segments": [
+        {
+          "grapheme": "h",
+          "phonemes": [
+            "h"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "i",
+          "phonemes": [
+            "ɪ"
+          ],
+          "ruleIds": [
+            "short-i"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "hit"
+      ],
+      "audioId": "word-hit",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-cot",
+      "name": "cot",
+      "text": "cot",
+      "meaning": "小床",
+      "targetRule": "short-o",
+      "ruleIds": [
+        "consonants",
+        "short-o"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-o"
+      ],
+      "segments": [
+        {
+          "grapheme": "c",
+          "phonemes": [
+            "k"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "o",
+          "phonemes": [
+            "ɑ"
+          ],
+          "ruleIds": [
+            "short-o"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "t",
+          "phonemes": [
+            "t"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "cot"
+      ],
+      "audioId": "word-cot",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-mug",
+      "name": "mug",
+      "text": "mug",
+      "meaning": "马克杯",
+      "targetRule": "short-u",
+      "ruleIds": [
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "g",
+          "phonemes": [
+            "ɡ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            2
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "mug"
+      ],
+      "audioId": "word-mug",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-rash",
+      "name": "rash",
+      "text": "rash",
+      "meaning": "皮疹",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "sh",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "sh",
+        "short-a"
+      ],
+      "segments": [
+        {
+          "grapheme": "r",
+          "phonemes": [
+            "ɹ"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "a",
+          "phonemes": [
+            "æ"
+          ],
+          "ruleIds": [
+            "short-a"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "sh",
+          "phonemes": [
+            "ʃ"
+          ],
+          "ruleIds": [
+            "sh"
+          ],
+          "positions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "rash"
+      ],
+      "audioId": "word-rash",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "w-much",
+      "name": "much",
+      "text": "much",
+      "meaning": "许多",
+      "targetRule": "ch",
+      "ruleIds": [
+        "ch",
+        "consonants",
+        "short-u"
+      ],
+      "prerequisites": [
+        "ch",
+        "consonants",
+        "short-u"
+      ],
+      "segments": [
+        {
+          "grapheme": "m",
+          "phonemes": [
+            "m"
+          ],
+          "ruleIds": [
+            "consonants"
+          ],
+          "positions": [
+            0
+          ]
+        },
+        {
+          "grapheme": "u",
+          "phonemes": [
+            "ʌ"
+          ],
+          "ruleIds": [
+            "short-u"
+          ],
+          "positions": [
+            1
+          ]
+        },
+        {
+          "grapheme": "ch",
+          "phonemes": [
+            "tʃ"
+          ],
+          "ruleIds": [
+            "ch"
+          ],
+          "positions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "exceptions": [],
+      "types": [
+        "listen",
+        "spell",
+        "match",
+        "read"
+      ],
+      "answers": [
+        "much"
+      ],
+      "audioId": "word-much",
+      "role": "check",
+      "kind": "word",
+      "version": "1.1.0",
+      "review": "source-checked"
+    },
+    {
+      "id": "s-cats-nap",
+      "name": "Cats nap.",
+      "text": "Cats nap.",
+      "meaning": "猫咪们打盹。",
+      "targetRule": "short-a",
+      "ruleIds": [
+        "consonants",
+        "short-a"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-a"
+      ],
+      "segments": [],
+      "exceptions": [],
+      "types": [
+        "read"
+      ],
+      "answers": [
+        "Cats nap."
+      ],
+      "audioId": "sentence-cats-nap",
+      "role": "training",
+      "kind": "sentence",
+      "version": "1.1.0",
+      "review": "draft"
+    },
+    {
+      "id": "s-fish-swim",
+      "name": "Fish swim.",
+      "text": "Fish swim.",
+      "meaning": "鱼会游泳。",
+      "targetRule": "sh",
+      "ruleIds": [
+        "consonants",
+        "short-i",
+        "sh"
+      ],
+      "prerequisites": [
+        "consonants",
+        "short-i",
+        "sh"
+      ],
+      "segments": [],
+      "exceptions": [],
+      "types": [
+        "read"
+      ],
+      "answers": [
+        "Fish swim."
+      ],
+      "audioId": "sentence-fish-swim",
+      "role": "training",
+      "kind": "sentence",
+      "version": "1.1.0",
+      "review": "draft"
+    }
+  ],
+  "audios": [
+    {
+      "id": "word-cat",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-cat.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-cat.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change.",
+      "bytes": 6940,
+      "sha256": "a5ca6691b2edad4f4f1191ff39d64573704c910699e12ae353cbd70b92c14785",
+      "duration": 0.55
+    },
+    {
+      "id": "word-mat",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-mat.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-mat.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-sat",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-sat.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-sat.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-map",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-map.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-map.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-cap",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-cap.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-cap.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-tap",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "path": "/audio/word-tap.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-tap.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-bag",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-bag.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-bag.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-fan",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "",
+      "license": "Not supplied",
+      "licenseUrl": "",
+      "path": "/audio/word-fan.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-fan.ogg"
+    },
+    {
+      "id": "word-pan",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-pan.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pan.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-jam",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-jam.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-jam.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-bed",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-bed.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-bed.ogg",
+      "changes": "Mirrored Commons MP3 converted to mono 44.1 kHz at 96 kbps; no speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/15/8cfd48517ae6.html",
+      "bytes": 9134,
+      "sha256": "d87799a3a16d3d63c5c6147706184830544f750c58709db78914c877e9a9399c",
+      "duration": 0.73
+    },
+    {
+      "id": "word-red",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-red.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-red.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change.",
+      "bytes": 7567,
+      "sha256": "d6b6c488cd9ede19c02605b989c6e470a95972820d0cffd15546db761b07c999",
+      "duration": 0.6
+    },
+    {
+      "id": "word-hen",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-hen.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-hen.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-pen",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-pen.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pen.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-ten",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "No machine-readable author provided. TheDaveRoss assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-ten.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-ten.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-net",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-net.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-net.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-pet",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "unknown",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-pet.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pet.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-leg",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-leg.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-leg.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-sit",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-sit.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-sit.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-pin",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "unknown",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "path": "/audio/word-pin.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pin.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-fin",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "unknown",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "path": "/audio/word-fin.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-fin.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-lip",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-lip.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-lip.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-pig",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-pig.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pig.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-big",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-big.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-big.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-kid",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-kid.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-kid.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-hot",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-hot.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-hot.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-pot",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-pot.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-pot.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-top",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-top.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-top.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-mop",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-mop.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-mop.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-log",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-log.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-log.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-dog",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-dog.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-dog.ogg",
+      "changes": "Mirrored Commons MP3 converted to mono 44.1 kHz at 96 kbps; no speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/6/63b6cb4f27b7.html",
+      "bytes": 8821,
+      "sha256": "7e0a60d689f015377831098cf6beabf942b7ba1486e28627b8ffc9a7108babc1",
+      "duration": 0.71
+    },
+    {
+      "id": "word-sun",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-sun.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-Sun.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-cup",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-cup.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-cup.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-bug",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-bug.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-bug.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-bus",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-bus.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-bus.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-run",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-run.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-run.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-fun",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-fun.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-fun.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change.",
+      "bytes": 9448,
+      "sha256": "c4c05be845117f0a15b96cd334f72d311acc5fb19bafb4458ed9edc14c3c68ab",
+      "duration": 0.76
+    },
+    {
+      "id": "word-mud",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-mud.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-mud.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-ship",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-ship.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-ship.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/0/ab01a2388747.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/12/12035.ogg",
+      "originalSha1": "3d0bc8da64dc9f6c67e921119b8ff67cecfa5094",
+      "originalSha1Verified": true,
+      "sha256": "2f7be65136e6c67c1ad3039a8a9104a499f69f12de75c48bafdb4168b34ba0ba",
+      "bytes": 8194,
+      "duration": 0.65
+    },
+    {
+      "id": "word-shop",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-shop.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-shop.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/1/286601cf9967.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/12/12056.ogg",
+      "originalSha1": "4d7ea06a9fa49621f3cb7af31ece65ba25363bfb",
+      "originalSha1Verified": true,
+      "sha256": "4b17fd6fd06927383c134fc6fd26ddfc4e546f98086426052ac597048e3318b0",
+      "bytes": 13523,
+      "duration": 1.1
+    },
+    {
+      "id": "word-fish",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "path": "/audio/word-fish.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-fish.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/13/aefcf196bb45.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/6/6332.ogg",
+      "originalSha1": "578d43b04556b42ab4e515725831706c0c60def9",
+      "originalSha1Verified": true,
+      "sha256": "f6e3e65199c369458c054fbd079f3b7944386bd387976a8d6c8271f340a872cc",
+      "bytes": 9448,
+      "duration": 0.76
+    },
+    {
+      "id": "word-shut",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-shut.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-shut.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/4/cabc7215991b.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/12/12098.ogg",
+      "originalSha1": "d8cee5aa778c81f75d56469174e06399f2657bef",
+      "originalSha1Verified": true,
+      "sha256": "ead730864dea8982f4533718925d908d0863a31f2675d0342e61fe1573eb568e",
+      "bytes": 8194,
+      "duration": 0.65
+    },
+    {
+      "id": "word-dish",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-dish.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-dish.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/16/5e57aa0ad5a3.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/4/4860.ogg",
+      "originalSha1": "a21e14fd8ceeff95a74fc9a1956ba9268dfe64a6",
+      "originalSha1Verified": true,
+      "sha256": "61399783c78eb27ea9ed3c0a8dea24b9e65de9c96bac8d92495dc86ae35e645e",
+      "bytes": 12896,
+      "duration": 1.04
+    },
+    {
+      "id": "word-chip",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-chip.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-chip.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/3/80ab37c9608d.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/3/3625.ogg",
+      "originalSha1": "cd510a20237a66d0818a7c49922355073d259d69",
+      "originalSha1Verified": true,
+      "sha256": "fbe40e23d62746e009572e43b22bdfec83119a6255d8eded92a7d9f916587bdd",
+      "bytes": 7880,
+      "duration": 0.63
+    },
+    {
+      "id": "word-chin",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Muke",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "path": "/audio/word-chin.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-chin.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/2/398799126755.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/3/3622.ogg",
+      "originalSha1": "d1b95ff7772026974243692d20635149a10dbfb1",
+      "originalSha1Verified": true,
+      "sha256": "27fb0e34a9a8dfa66d5fc7fdb34af06bca89a5ae5d5e98ffd2723363b747ee9a",
+      "bytes": 13523,
+      "duration": 1.1
+    },
+    {
+      "id": "word-chop",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-chop.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-chop.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/4/6e61d4881397.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/3/3639.ogg",
+      "originalSha1": "844f178937f8fe97febc133bed64ad532d33ca75",
+      "originalSha1Verified": true,
+      "sha256": "517a984e813a37e64e29a30a4baa8b8192867316d6373ad6f870aa26db944f23",
+      "bytes": 12896,
+      "duration": 1.04
+    },
+    {
+      "id": "word-chat",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-chat.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-chat.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/16/fa2943cb64b5.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/3/3576.ogg",
+      "originalSha1": "ce712bdd367ebd398a0b8670463eef52d0ef2318",
+      "originalSha1Verified": true,
+      "sha256": "7da44ed57be27b2d3c3c1c8ebcb247fb29e45a5a02301a4637b2ca82d94a005d",
+      "bytes": 8194,
+      "duration": 0.65
+    },
+    {
+      "id": "word-rich",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-and-original-hash-and-decode-checked",
+      "teachingReview": "pending-parent",
+      "status": "available",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-rich.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-rich.ogg",
+      "changes": "Original Ogg retrieved from attributed mirror; SHA-1 matches Commons original. Converted to mono 44.1 kHz MP3 at 96 kbps without speed or pitch change.",
+      "downloadMirror": "https://wordsfromtext.com/voice/info/9/21cc4c8bb3af.html",
+      "downloadUrl": "https://wordsfromtext.com/voice/11/11453.ogg",
+      "originalSha1": "dfedd63f1339f4d02ff93aeef40b07cd7f356e1e",
+      "originalSha1Verified": true,
+      "sha256": "7acd3f22b97842e799bfa4cd63ca5444f785e0bbf375fef3d4f9203f8b1a4070",
+      "bytes": 8821,
+      "duration": 0.71
+    },
+    {
+      "id": "word-bat",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-bat.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-bat.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-ham",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-ham.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-ham.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-vet",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "",
+      "license": "Not supplied",
+      "licenseUrl": "",
+      "path": "/audio/word-vet.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-vet.ogg"
+    },
+    {
+      "id": "word-hit",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "unknown",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "path": "/audio/word-hit.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-hit.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-cot",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-cot.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-cot.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-mug",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "No machine-readable author provided. Dvortygirl assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-mug.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-mug.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-rash",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "path": "/audio/word-rash.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-rash.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "word-much",
+      "kind": "word",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/word-much.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-much.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "phoneme-a",
+      "kind": "phoneme",
+      "version": "1.1.0",
+      "accent": "IPA reference (not a named English accent)",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "No machine-readable author provided. Denelson83 assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/phoneme-a.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:Near-open_front_unrounded_vowel.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "phoneme-i",
+      "kind": "phoneme",
+      "version": "1.1.0",
+      "accent": "IPA reference (not a named English accent)",
+      "review": "source-checked",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "No machine-readable author provided. Denelson83 assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/audio/phoneme-i.mp3",
+      "source": "https://commons.wikimedia.org/wiki/File:Near-close_near-front_unrounded_vowel.ogg",
+      "changes": "Converted Ogg to MP3, mono 44.1 kHz at 96 kbps; no speed or pitch change."
+    },
+    {
+      "id": "sentence-cats-nap",
+      "kind": "sentence",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "missing",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "",
+      "license": "Not supplied",
+      "licenseUrl": "",
+      "path": "/audio/sentence-cats-nap.mp3",
+      "source": ""
+    },
+    {
+      "id": "sentence-fish-swim",
+      "kind": "sentence",
+      "version": "1.1.0",
+      "accent": "General American",
+      "review": "missing",
+      "teachingReview": "pending-parent",
+      "status": "missing",
+      "author": "",
+      "license": "Not supplied",
+      "licenseUrl": "",
+      "path": "/audio/sentence-fish-swim.mp3",
+      "source": ""
+    }
+  ]
+}

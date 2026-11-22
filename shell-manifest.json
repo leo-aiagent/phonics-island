@@ -1,0 +1,45 @@
+{
+  "version": "97390dfe0f7340ef",
+  "entries": [
+    {
+      "url": "/phonics-island/apple-touch-icon.png",
+      "sha256": "40bdafb9aab249ea7b67ec43a2fafebf25e85fb075a15c6832ceeb61f4014050"
+    },
+    {
+      "url": "/phonics-island/assets/Parent-D34g81_C.js",
+      "sha256": "f991329dfbb35b093beadcfb17bd32b7a4f5a6e32faf8507a4df7ae51fe1ad7d"
+    },
+    {
+      "url": "/phonics-island/assets/index-C9tBbCBT.js",
+      "sha256": "c7401541e845e1fa0cf9be6aeb44027b93acf282d56e04e6e787306d4a46ad4c"
+    },
+    {
+      "url": "/phonics-island/assets/index-CQJ4tGYS.css",
+      "sha256": "a1e3b2dea1e0df435f44ca068f7f053aad0d826af7ceb95d825f8e410c0a4d66"
+    },
+    {
+      "url": "/phonics-island/content/starter.json",
+      "sha256": "f06fe46776229bb2d16854016262cbe6c7f1a7fb4f3035e03ec441cc85d02c90"
+    },
+    {
+      "url": "/phonics-island/icon-192.png",
+      "sha256": "2791f30289890c7a0cdc4ffdca9a5f3a227fd342cf77865e5c16332b8d4ce25b"
+    },
+    {
+      "url": "/phonics-island/icon-512.png",
+      "sha256": "6bdf5fa726394271572249bb2b97e764763dfac0d7c3fa872e33e208b9d2c66a"
+    },
+    {
+      "url": "/phonics-island/icon.svg",
+      "sha256": "d353c1e7e34125c1a518a6e2b18ba748e15736b976d7eaa6078619ca41be57c6"
+    },
+    {
+      "url": "/phonics-island/index.html",
+      "sha256": "a2f5c9f7a4e22cce33d6985448d460f9071d2aba144857b6bd0e3c0ce41223c4"
+    },
+    {
+      "url": "/phonics-island/manifest.webmanifest",
+      "sha256": "02922868736dcc65ce3f18017b1c1a3d57574c877e5e321475e3c041b1bee262"
+    }
+  ]
+}
